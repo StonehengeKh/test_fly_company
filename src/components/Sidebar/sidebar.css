@@ -1,0 +1,33 @@
+.block-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.block-visual {
+    margin: 20px 0;
+    width: 240px;
+    height: 310px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 768px)  {
+    .block-visual {
+        width: 66vw;
+    }
+}
+
+@media (max-width: 640px)  {
+    .block-visual {
+        width: 68vw;
+    }
+}
+
+@media (max-width: 480px)  {
+    .block-visual {
+        width: 72vw;
+    }
+}

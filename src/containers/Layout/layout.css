@@ -1,0 +1,26 @@
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-header {
+    background-color: aliceblue;
+}
+
+.block-sidebar, .block-main {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 768px)  {
+    .block-main {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+.block-radio {
+    margin: 20px 0;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    margin-left: 20px;
+}
+
+.checkbox {
+    display:none;
+}
+
+.checkbox + label{
+    display: block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid darkgrey;
+    text-align: center;
+    border-radius: 3px;
+}
+.checkbox + label:before{
+    content: '✔';
+    font-size: 10px;
+    color: white;
+}
+
+.checkbox:checked + label{
+    border: 1px solid dodgerblue;
+    background-color: aliceblue;
+}
+
+.checkbox:checked + label:before{
+    color: dodgerblue;
+}
+
+.block-col {
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.block-col:hover {
+    background-color: aliceblue;
+}
+
+.block-col:hover .checkbox + label:before {
+    color: aliceblue;
+}
+
+.block-col:hover .checkbox:checked + label:before{
+    color: dodgerblue;
+}
+
+.stops-block {
+    display: flex;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.only {
+    margin: 0 20px 0 auto;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.block-col:hover .only{
+    color: dodgerblue;
+}
+
+.stop {
+    margin-left: 10px;
+}
+
+

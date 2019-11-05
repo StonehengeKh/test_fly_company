@@ -1,0 +1,45 @@
+.block-btns {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+    margin: 20px;
+}
+
+.btn-val {
+    margin: 10px 0;
+}
+
+.btn-usd, .btn-eur, .btn-rub {
+    border: 1px solid darkgrey;
+    cursor: pointer;
+    outline: none;
+    width: 33.3%;
+    height: 40px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.btn-active {
+    background-color: dodgerblue;
+    color: white;
+    outline: none;
+}
+
+.btn-not-active {
+    background-color: white;
+    outline: none;
+}
+
+.btn-not-active:hover {
+    background-color: aliceblue;
+    border: 1px solid dodgerblue;
+}
+
+.btn-eur {
+    border-radius: 0 5px 5px 0
+}
+
+.btn-rub {
+    border-radius: 5px 0 0 5px;
+}
